@@ -18,6 +18,10 @@ The paper introduces a methodology to estimate bounds for the average treatment 
 3. **`boundsPeerEffects_v3.do`**:
    - This script is called by `omega.ado`.
    - Handles the specific implementation of bounds calculations and peer effect modeling.
+   - 
+3. **`liRacine.ado`**:
+   - This script is called by `omega.ado`.
+   - It estimates Li and Racine's nonparametric regression for discrete covariates.
 
 ## Instructions for Use
 
