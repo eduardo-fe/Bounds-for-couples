@@ -7,6 +7,8 @@ The paper introduces a methodology to estimate bounds for the average treatment 
 
 ## Files in the Repository
 
+To replicate the result in the paper, you need to download the Living Costs and Food Survey (2002 -2017)
+
 1. **`datapreparation.do`**:
    - This script is the first to be executed.
    - It preprocesses the raw data, creating a clean dataset ready for analysis.
@@ -18,7 +20,7 @@ The paper introduces a methodology to estimate bounds for the average treatment 
 3. **`boundsPeerEffects_v3.do`**:
    - This script is called by `omega.ado`.
    - Handles the specific implementation of bounds calculations and peer effect modeling.
-   - 
+   - If discrete covariates are included, the function calls `liRacine.ado` to implement nonparametric regression with discrete covariates.
 3. **`liRacine.ado`**:
    - This script is called by `omega.ado`.
    - It estimates Li and Racine's nonparametric regression for discrete covariates.
