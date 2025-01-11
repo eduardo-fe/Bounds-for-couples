@@ -39,7 +39,7 @@ The paper introduces a methodology to estimate bounds for the average treatment 
 If you use this code, please cite the paper:
 
 ```
-[Author(s)]. "Bounds for Average Treatment Effect on Couples with an Application to the Retirement-Consumption Puzzle." Forthcoming in *Economics Letters*.
+Fé, E. (Forthcoming). Bounds for Average Treatment Effect on Couples with an Application to the Retirement-Consumption Puzzle. *Economics Letters*.
 ```
 
 ## License
